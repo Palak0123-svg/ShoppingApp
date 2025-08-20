@@ -1,0 +1,121 @@
+/* .register , .login
+{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+   
+} */
+
+
+*{
+    box-sizing: border-box;
+}
+.Mybody{
+   
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: steelblue; */
+    color: white;
+    overflow: hidden;
+    margin: 0;
+}
+.register
+{
+    height: 120vh;
+}
+.Mycontainer
+{
+    background-color:#2A4E6C;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+.Mycontainer h1
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Mycontainer a
+{
+    text-decoration: none;
+    color: lightblue;
+}
+.Myform-control
+{
+    margin: 20px 0px 40px;
+    position: relative;
+    width: 300px;
+}
+.Myform-control input
+{
+    border: 0;
+    border-bottom: 2px white solid;
+    background-color: transparent;
+    width: 100%;
+    display: block;
+    padding: 15px 0;
+    font-size: 18px;
+    color: white;
+}
+.Myform-control input:focus, 
+.Myform-control input:valid
+{
+    outline: 0;
+    border-bottom-color:lightblue ;
+}
+.Mybtn
+{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    background-color: lightblue;
+    border: 0;
+    border-radius: 5px;
+
+}
+.Mybtn:active
+{
+    transform: scale(0.90);
+}
+.Mybtn:hover
+{
+    background-color: white;
+    color: #2A4E6C;
+}
+
+.Myform-control label
+{
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+.Myform-control label span
+{
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+ .Myform-control input:focus + label span,
+ .Myform-control input:valid + label span
+ {
+    color: lightblue;
+    transform: translateY(-30px);
+ }
+
+.card-text
+{
+    margin-top: -5px;
+    font-size: 16px;
+    color: rgb(91, 91, 91);
+}
+.Mytext .price
+{
+    margin-top: 20px;
+}

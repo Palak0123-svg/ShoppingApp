@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --fontUsual: 'Poppins', sans-serif;
+    --fontHeading :'Playfair Display', serif;
+    --fontCinzel : 'Cinzel', serif;
+    --navBottomBoder : grey;
+    --lightBlue:#90ADC6;
+    --blue:#333652;
+    --blue2:#426482;
+    --yellow:#C3A537;
+    --offWhite:#E9EAEC;
+    --black:#272727;
+    --brightYellow:#FAD02C;
+    --footerGradient:linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+body{
+    
+}
+
+/* /-------- navbar  ------------/ */
+
+.cartpng
+{
+    height: 25px;
+    width: 25px;
+}
+
+.navbar{
+    background-color: var(--blue2) !important;
+    
+    font-family: var(--fontUsual);
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px gray;
+    border-bottom: 0px solid gray !important;
+}
+
+.nav-link{
+font-weight: 300 !important;
+color: var(--offWhite) !important;
+}
+
+.active{
+    border-bottom: 1px solid var(--brightYellow);
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-family: "roboto" , sans-serif;
+    color: var(--brightYellow) !important;
+}
+
+.logo{
+    background-color: var(--brightYellow);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(5px);
+}
+/* ---------------  Footer ------------ */
+
+.footer{
+    color: white;
+    padding: 25px;
+    background-image: var(--footerGradient);
+}
+
+.footer a{
+    text-decoration: none;
+    color: var(--offWhite);
+    padding: 10px;
+    transition: 0.5s ease;
+}
+.footer a:hover
+{
+    color: var(--brightYellow);
+    font-weight: 400;
+    cursor: pointer;
+    border-bottom: 0.5px solid var(--offWhite);
+}
+
+
+/* ---------- contact page ------------ */
+.contact-heading
+{
+    background-color: var(--lightBlue);
+}
+.contactus {
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* -------- page 404 ------------ */
+.pnf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    color: var(--black) !important;
+}
+.pnf-title{
+    font-size: 4rem;
+    color: var(--black) !important;
+
+}
+.pnf-heading
+{
+    font-size: 3rem;
+}
+.pnf-btn
+{
+    font-size: 1.5rem;
+}
+
+/* ------- forgot password button ------- */
+.forgot-password
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.forgot-password button
+{
+    margin-top: 0.5rem;
+}
+
+/* --------- admin Dashboard -------- */
+.admin-dashboard
+{
+   padding: 50px;
+}
+
+/* ----------- product link ---------- */
+
+.product-link{
+    text-decoration: none !important;
+    color: var(--black) !important;
+}
+
+/* product style */
+
+#Myproduct
+{
+    text-align: center;
+}
+
+#Myproduct .Mypro-container
+{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+#Myproduct .Mypro
+{
+    min-width: 250px;
+    width: 23%;
+    border: 1px solid #0a9188;
+    padding: 10px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+    margin: 4px 8px;
+    transition: 0.5s ease;
+}
+
+#Myproduct .Mypro:hover
+{
+    transform: translateY(-4px);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+#Myproduct .Mypro img{
+    width: 100%;
+    height: 200px;
+    border-radius: 28px;
+}
+
+ .Mytext
+{
+    justify-content: space-evenly;
+    /* padding-top: 4px; */
+}
+
+.Myflex
+{
+    display: flex;
+    align-items: center;
+}
+
+.price{
+    font-size: large;
+    font-weight: bold;
+    color: #0a9188;
+}
+
+.product-detail-img
+{
+    border-radius: 28px;
+}
+ 
+.card-body
+{
+    margin-top: -20px;
+}
+
+
+
+
+
+
+
+
+
+
